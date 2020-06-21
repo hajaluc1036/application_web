@@ -1,0 +1,94 @@
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    margin-left: 200px;
+}
+
+nav a{
+    font-size: 2em;
+    color: #181818;
+    font-family: New courier;
+    text-align: center;
+}
+header{
+	background: #8c8c8c;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+#div{
+	text-align: center;
+}
+
+#div1{
+	padding: 7%;
+}
+
+#h1{
+	background:  #404040;
+	font-family: Arial, sans-serif;
+	color: #ffe6cc;
+	text-align: center;
+}
+#white{
+	background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+    padding-block-end: 32%;
+    text-align: center;
+}
+#grey{
+	background: #d9d9d9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+    padding-block-end: auto;
+    text-align: center;
+}
+
+#p2{
+	line-height:200%;
+}
+.inputDate{
+	border-radius: 3px;
+	width: 100%;
+}
+
+#td{
+	color: blue;
+}
+
